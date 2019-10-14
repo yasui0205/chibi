@@ -8,6 +8,7 @@ class Val(object):
     def eval(self):
         return self.value
 
+        
 v = Val(1)
 print(v)
 assert v.eval() == 1
