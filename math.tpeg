@@ -1,7 +1,6 @@
 
 example Expr (1+2)*3
 example Expr 1+2*3
-example Expr 1+2
 
 Expr = { Value '+' Prod #Add } / Prod
 Prod = { Value '*' Value #Mul } / Value
